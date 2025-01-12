@@ -46,6 +46,6 @@ scholar_userid: p61wpJUAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: toolbox.jpg # can be png, svg, jpg
+  logo: assets/img/toolbox.jpg # can be png, svg, jpg
   title: Website of methods in population genomics
   url: www.methodspopgen.com
