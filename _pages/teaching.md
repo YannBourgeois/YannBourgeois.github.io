@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Various material related to teaching
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I have acquired a substantial teaching experience at the University of Portsmouth, from 2020 to 2022. 
+I was responsible for courses in genetics, bioinformatics, and genomics. I also recently contributed with Thibault Leroy to an  <a href="https://github.com/PhysaliaIntroPopGen/November2024">online Physalia course</a> on population genomics.
 
-Organize your courses by years, topics, or universities, however you like!
+
+Work on this page is in progress, but I intend to provide links to various documents and tutorials in html format.
