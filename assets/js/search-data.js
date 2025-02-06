@@ -46,14 +46,14 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Various material related to teaching",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-people",
           title: "people",
-          description: "members of the lab or group",
+          description: "Students and other members of the group.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -452,9 +452,9 @@ ninja.data = [{
           description: "Ongoing project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-tortoise-genomics",
+          title: 'Tortoise genomics',
+          description: "Ongoing project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
