@@ -61,7 +61,7 @@
     },
     {
       "name": "University of Toulouse",
-      "position": "Post-doctoral Researcher",
+      "position": "PhD student",
       "url": "https://en.univ-toulouse.fr/",
       "startDate": "2009-09-01",
       "endDate": "2013-08-31",
@@ -69,6 +69,18 @@
       "highlights": ["Réunion island, population genomics, speciation"]
     }
   ],
+  "education": [
+    {
+      "institution": "Ecole Normale Supérieure de Lyon",
+      "location": "Lyon, France",
+      "url": "https://www.ens-lyon.fr/",
+      "area": "Molecular Biology",
+      "studyType": "Master",
+      "startDate": "2006-09-01",
+      "endDate": "2009-08-31",
+      "courses": ["Molecular and Cell Biology, Evo-Devo, Virology, Biostatistics"]
+    }
+  ],	
   "languages": [
     {
       "language": "French",
@@ -78,6 +90,16 @@
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate (B1)",
+      "icon": ""
+    },
+    {
+      "language": "Romanian",
+      "fluency": "Beginner (A2)",
       "icon": ""
     }
   ],
