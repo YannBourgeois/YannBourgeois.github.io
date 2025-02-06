@@ -5,10 +5,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - PhysaliaIntroPopGen/November2024
+  - YannBourgeois/Scripts_harrier
+  - YannBourgeois/Scripts_Genome_assembly_Tgraeca
+  - YannBourgeois/A-phylodynamic-analysis-of-SARS-CoV-2-outbreak-in-a-densely-populated-city-Portsmouth-UK-
