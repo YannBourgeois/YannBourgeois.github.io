@@ -457,6 +457,11 @@ ninja.data = [{
           description: "Ongoing project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-methods-in-population-genomics",
+          title: 'Methods in population genomics',
+          description: "Ongoing project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
