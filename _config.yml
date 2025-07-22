@@ -152,6 +152,10 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  teaching:
+    output: true
+    permalink: /:collection/:title/
+
 
 announcements:
   enabled: true
