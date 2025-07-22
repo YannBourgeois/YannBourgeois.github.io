@@ -25,6 +25,6 @@ vulnerable Greek Tortoise (_Testudo graeca_, NCBI BioProject PRJNA1086345).  We 
 
 </div>
 <div class="caption">
-    These tortoises were found near Constanta in Romania, and belongs to the subspecies _Testudo graeca ibera_. In the medium term I wish to expand genomic and conservation studies to Eastern Europe and the Near-East. The figure on the right summarizes a possible demographic trajectory inferred from the reference genome (time goes backwards from left to right).
+    These tortoises were found near Constanta in Romania, and belongs to the subspecies Testudo graeca ibera. In the medium term I wish to expand genomic and conservation studies to Eastern Europe and the Near-East. The figure on the right summarizes a possible demographic trajectory inferred from the reference genome (time goes backwards from left to right).
 </div>
 
