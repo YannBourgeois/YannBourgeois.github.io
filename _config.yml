@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Notes and ideas # blog_name will be displayed in your blog page
-blog_description: A space for ideas, comments, methods or papers of interest
+blog_name: Announcements and notes # blog_name will be displayed in your blog page
+blog_description: A space for announcements, ideas, methods or papers of interest
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
