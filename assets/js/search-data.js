@@ -141,6 +141,13 @@ ninja.data = [{
           window.open("mailto:%79%61%6E%6E.%62%6F%75%72%67%65%6F%69%73@%69%72%64.%66%72", "_blank");
         },
       },{
+        id: 'social-flickr',
+        title: 'Flickr',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.flickr.com/bourgeoisyann", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -148,11 +155,18 @@ ninja.data = [{
           window.open("https://github.com/YannBourgeois", "_blank");
         },
       },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/yannb1987", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Yann Bourgeois", "_blank");
+          window.open("https://www.linkedin.com/in/yann-bourgeois-6488175a", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -181,6 +195,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=p61wpJUAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://sites.google.com/site/plantbiodiversityadaptation/home", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/bourgeois_yann", "_blank");
         },
       },{
         id: 'social-custom_social',
