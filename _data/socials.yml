@@ -4,7 +4,7 @@
 
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
-# bluesky_url: # your bluesky URL
+bluesky_url: https://bsky.app/profile/bourgeoisyann.bsky.social # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: yann.bourgeois@ird.fr # your email address
@@ -20,15 +20,15 @@ github_username: YannBourgeois # your GitHub user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
+linkedin_username: Yann Bourgeois # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+orcid_id: 0000-0002-1809-387X # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Yann-Bourgeois-3 # your profile on ResearchGate
 rss_icon: false # set to true to show the RSS icon
 scholar_userid: p61wpJUAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
@@ -48,4 +48,4 @@ scholar_userid: p61wpJUAAAAJ # your Google Scholar ID
 custom_social: # can be any name here other than the ones already defined above
   logo: assets/img/toolbox.jpg # can be png, svg, jpg
   title: Website of methods in population genomics
-  url: www.methodspopgen.com
+  url: https://yannbourgeois.github.io/projects/4_project/
