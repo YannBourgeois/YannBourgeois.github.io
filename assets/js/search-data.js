@@ -159,7 +159,7 @@ ninja.data = [{
         title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://instagram.com/yannb1987", "_blank");
+          window.open("https://instagram.com/127862601@N08", "_blank");
         },
       },{
         id: 'social-linkedin',
