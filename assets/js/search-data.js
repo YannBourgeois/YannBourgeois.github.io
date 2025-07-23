@@ -462,6 +462,11 @@ ninja.data = [{
           description: "Ongoing project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "teaching-population-dynamics-of-transposable-elements",
+          title: 'Population dynamics of Transposable Elements',
+          description: "Ongoing project",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/1_teaching/";
             },},{
         id: 'social-email',
         title: 'email',
