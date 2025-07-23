@@ -127,6 +127,13 @@ ninja.data = [{
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/1_teaching/";
             },},{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/bourgeoisyann.bsky.social", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -139,6 +146,27 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/YannBourgeois", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/Yann Bourgeois", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-1809-387X", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Yann-Bourgeois-3/", "_blank");
         },
       },{
         id: 'social-rss',
@@ -159,7 +187,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("www.methodspopgen.com", "_blank");
+          window.open("https://yannbourgeois.github.io/projects/4_project/", "_blank");
         },
       },{
       id: 'light-theme',
