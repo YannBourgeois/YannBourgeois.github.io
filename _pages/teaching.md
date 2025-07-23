@@ -15,11 +15,11 @@ Work on this page is in progress, but I intend to provide links to various docum
 
 ## Physalia courses
 
-You can find an introduction to population structure inference and admixture [here](assets/html/1_teaching.html). The example deals with recent research on date palm.
+You can find an introduction to population structure inference and admixture [here]({{ site.url }}/assets/html/1_teaching.html). The example deals with recent research on date palm.
 
 ## Lectures and workshops at Portsmouth University.
 
-You can find a quick introduction to coding with Linux [here](assets/pdf/Workshop_UNIX_1.pdf)
+You can find a quick introduction to coding with Linux [here]({{ site.url }}/assets/pdf/Workshop_UNIX_1.pdf)
 
 ## Lectures at the University of Montpellier.
 
