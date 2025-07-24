@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ANR JCJC funded
+title: ANR PRC ORIGAMIS funded
 date: 2025-07-24 00:00:01
 description: ANR ORIGAMIS
 tags: formatting code
@@ -20,7 +20,7 @@ This project could thus contribute to the emergence of a promising new biologica
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ANR.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/anr.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
