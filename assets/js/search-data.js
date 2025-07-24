@@ -79,9 +79,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-anr-jcjc-funded",
+            },{id: "post-anr-prc-origamis-funded",
       
-        title: "ANR JCJC funded",
+        title: "ANR PRC ORIGAMIS funded",
       
       description: "ANR ORIGAMIS",
       section: "Posts",
