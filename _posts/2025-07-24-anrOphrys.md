@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ANR JCJC funded
-date: 2025-27-07 00:00:01
+date: 2025-07-24 00:00:01
 description: ANR ORIGAMIS
 tags: formatting code
 categories: sample-posts
