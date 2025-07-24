@@ -83,6 +83,17 @@ ninja.data = [{
       
         title: "ANR JCJC funded",
       
+      description: "ANR ORIGAMIS",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/anrOphrys/";
+        
+      },
+    },{id: "post-anr-jcjc-funded",
+      
+        title: "ANR JCJC funded",
+      
       description: "Start of the DaTEPalm ANR JCJC project",
       section: "Posts",
       handler: () => {
@@ -145,7 +156,7 @@ ninja.data = [{
         title: 'Flickr',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.flickr.com/bourgeoisyann", "_blank");
+          window.open("https://www.flickr.com/127862601@N08", "_blank");
         },
       },{
         id: 'social-github',
@@ -159,7 +170,7 @@ ninja.data = [{
         title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://instagram.com/127862601@N08", "_blank");
+          window.open("https://instagram.com/yannb1987", "_blank");
         },
       },{
         id: 'social-linkedin',
