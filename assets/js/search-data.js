@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-anr-prc-origamis-funded",
+            },{id: "post-review-on-introgression-methods",
+      
+        title: "Review on introgression methods",
+      
+      description: "A good resource to be added to the methodspopgen tables.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/review_interest/";
+        
+      },
+    },{id: "post-anr-prc-origamis-funded",
       
         title: "ANR PRC ORIGAMIS funded",
       
