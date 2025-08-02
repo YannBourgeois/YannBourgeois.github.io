@@ -90,6 +90,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/review_interest/";
         
       },
+    },{id: "post-new-publication",
+      
+        title: "New publication",
+      
+      description: "Article on urban adaptation in anoles published in Molecular Ecology.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/papermolecol/";
+        
+      },
     },{id: "post-anr-prc-origamis-funded",
       
         title: "ANR PRC ORIGAMIS funded",
