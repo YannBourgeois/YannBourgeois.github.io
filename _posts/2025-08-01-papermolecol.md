@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New publication
-date: 2025-07-24 00:00:01
+date: 2025-08-01 00:00:01
 description: Article on urban adaptation in anoles published in Molecular Ecology.
 tags: publication
 categories: sample-posts

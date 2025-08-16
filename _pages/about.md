@@ -20,4 +20,8 @@ social: true # includes social icons at the bottom of the page
 
 My research has mostly revolved around molecular ecology and evolutionary biology.
 I am especially interested in using advanced genomic tools to understand the past history of species that are representative of biodiversity, as well as quantifying the link between fitness and genotypes.
-More recently, I have started developing projects on the population dynamics of transposable elements, which are involved in a strong coevolutionary interaction with their host. The study of TEs is fascinating as it contributes to break away from a linear view of the genome.
+More recently, I have started developing projects on the population dynamics of transposable elements, which are involved in a strong coevolutionary interaction with their host. 
+The study of TEs is fascinating as it contributes to break away from a linear view of the genome.
+
+I recently wrote a report (in english and in french) about my past and future research for my _Habilitation à Diriger des Recherches_, a french diploma which could be seen as a rough equivalent of a tenure-track report. 
+Feel free to [read it](/assets/pdf/Rapport_HDR.pdf) for a more personal recollection of the work I did. Hopefully, it might be useful to younger researchers?
