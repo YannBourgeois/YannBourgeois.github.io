@@ -1,3 +1,5 @@
+## Valentin Grenet (PhD student)
+
 Valentin obtained his Masters degree from Polytech Nice Sophia in 2024. His project
 consisted in annotating LTR retrotransposons in the date palm reference genome. He
 has succeeded in obtaining consensus sequences for the most abundant lineages of
