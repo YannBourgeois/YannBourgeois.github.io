@@ -35,5 +35,13 @@ profiles:
        <p>valentin.grenet@ird.fr</p>
        <p>911 avenue Agropolis</p>
        <p>34394 Montpellier, France</p>
+   - align: right
+     image: ryan.png
+     content: about_ryan.md
+     image_circular: false # crops the image to make it circular
+     more_info: >
+       <p>jasmine.ryan@ird.fr</p>
+       <p>911 avenue Agropolis</p>
+       <p>34394 Montpellier, France</p>
 
 ---
