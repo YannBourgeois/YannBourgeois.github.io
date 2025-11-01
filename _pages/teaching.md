@@ -23,3 +23,9 @@ You can find a quick introduction to coding with Linux [here]({{ site.url }}/ass
 
 ## Lectures at the University of Montpellier.
 
+In collaboration with Julie Orjuela, we designed a three-days workshop on population genomics. It is inspired by the one designed for Physalia, but also includes new material, particularly for demographic inference.
+Data for workshops #1 and #2 can be found <a href="https://forge.ird.fr/itrop/training/training_genomique_pops"> at this address </a>
+
+Workshop #1: [Population structure]({{ site.url }}/assets/html/Workshop_Day_1.html)
+Workshop #2: [Demographic inference, introduction to ABC and likelihood approaches]({{ site.url }}/assets/html/Workshop_Day_2.html)
+Workshop #3: [Selection and association scans]({{ site.url }}/assets/html/Workshop_Day_3.html)
