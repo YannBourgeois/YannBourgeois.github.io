@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-new-publication",
+            },{id: "post-interesting-reviews-on-estimating-recent-ne",
+      
+        title: "Interesting reviews on estimating recent Ne",
+      
+      description: "Other resources to be added to the methodspopgen tables.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/reviews/";
+        
+      },
+    },{id: "post-new-publication",
       
         title: "New publication",
       
