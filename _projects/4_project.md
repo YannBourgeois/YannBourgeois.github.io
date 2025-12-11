@@ -18,9 +18,25 @@ This simple graph should explain it all...
     </div>
 </div>
 <div class="caption">
-    Methods are interconnected, and there is are more and more attempts to incorporate this connectivity in more recent works (e.g. machine learning). Aspects that require 'back-and-forth' are indicated by double arrows. Results obtained from methods listed in different sections can be used to inform the next steps of an analysis (single arrows). There is no one-size-fits-all pipeline, and elements of this general framework may be entirely omitted from an analysis depending on the research question
+    Methods are interconnected, and there are attempts to incorporate this connectivity in more recent works (e.g. machine learning). Aspects that require 'back-and-forth' are indicated by double arrows. Results obtained from methods listed in different sections can be used to inform the next steps of an analysis (single arrows). There is no one-size-fits-all pipeline, and elements of this general framework may be entirely omitted from an analysis depending on the research question.
 </div>
 
+## A few more resources.
+
+I try to regularly update the tables so they reflect the most recent methods. You can also check the [blog posts](https://yannbourgeois.github.io/blog/), where I pin reviews or articles that summarize recent methods.
+
+I also design lectures and workshops in population genomics. I recently contributed with [Thibault Leroy](https://thibaultleroyfr.github.io/) to an  <a href="https://github.com/PhysaliaIntroPopGen/November2024">online Physalia course</a>.
+
+In collaboration with Julie Orjuela at IRD, we designed a three-days workshop on population genomics. It is inspired by the one designed for Physalia, but also includes new material, particularly for demographic inference.
+Data for workshops #1 and #2 can be found <a href="https://forge.ird.fr/itrop/training/training_genomique_pops"> at this address </a>
+
+Workshop #1: [Population structure]({{ site.url }}/assets/html/Workshop_Day_1.html)
+
+Workshop #2: [Demographic inference, introduction to ABC and likelihood approaches]({{ site.url }}/assets/html/Workshop_Day_2.html)
+
+Workshop #3: [Selection and association scans]({{ site.url }}/assets/html/Workshop_Day_3.html)
+
+I am also planning another set of workshops on spatial genomics. I recently started developing pipelines using [slendr](https://bodkan.net/slendr/), which is a R package interacting with tskit and SLiM, and can be very useful if your research has a spatial component and you want to test the robustness of your analyses. I will post it here once done.
 
 ##  Table 1: Summary of methods dedicated to infer population structure.
 <table

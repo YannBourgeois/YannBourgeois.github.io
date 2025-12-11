@@ -27,5 +27,7 @@ In collaboration with Julie Orjuela, we designed a three-days workshop on popula
 Data for workshops #1 and #2 can be found <a href="https://forge.ird.fr/itrop/training/training_genomique_pops"> at this address </a>
 
 Workshop #1: [Population structure]({{ site.url }}/assets/html/Workshop_Day_1.html)
+
 Workshop #2: [Demographic inference, introduction to ABC and likelihood approaches]({{ site.url }}/assets/html/Workshop_Day_2.html)
+
 Workshop #3: [Selection and association scans]({{ site.url }}/assets/html/Workshop_Day_3.html)
