@@ -3,7 +3,7 @@ layout: post
 title: ANR PRC ORIGAMIS funded
 date: 2025-07-24 00:00:01
 description: ANR ORIGAMIS
-tags: formatting code
+tags: funding
 categories: sample-posts
 featured: true
 ---
