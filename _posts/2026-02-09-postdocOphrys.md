@@ -10,7 +10,7 @@ featured: true
 
 
 
-Joris Bertrand (coordinator), Anaïs Gibert and I are offering an up-to 24 months [post-doctoral position in population genomics](/assets/pdf/Job_offer_IRD_ORIGAMIS_IRD_english.pdf) (the link gives you the description in English). The position is located in Montpellier, on the [IRD](https://www.ird.fr/) campus. You can apply by clicking on this [link](People interested in applying should apply on the official IRD website to facilitate tracking by IRD’s HR: https://emploi-recrutement.ird.fr/offre-de-emploi/emploi-chercheur-en-genomique-des-populations-f-h-_665.aspx). This project will tackle the challenge of population genomics of speciation in species with large genomes. 
+Joris Bertrand (coordinator), Anaïs Gibert and I are offering an up-to 24 months [post-doctoral position in population genomics](/assets/pdf/Job_offer_IRD_ORIGAMIS_IRD_english.pdf) (the link gives you the description in English). The position is located in Montpellier, on the [IRD](https://www.ird.fr/) campus. People interested in applying should apply on the official IRD website to facilitate tracking by IRD’s HR. You can apply by clicking on this [link](https://emploi-recrutement.ird.fr/offre-de-emploi/emploi-chercheur-en-genomique-des-populations-f-h-_665.aspx). This project will tackle the challenge of population genomics of speciation in species with large genomes. 
 
 You can look at Joris and Anaïs research [here](https://www.jorisbertrand.com/).
 
