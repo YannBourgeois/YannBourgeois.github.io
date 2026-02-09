@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-interesting-reviews-on-estimating-recent-ne",
+            },{id: "post-job-offer",
+      
+        title: "Job offer!",
+      
+      description: "ANR ORIGAMIS",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/postdocOphrys/";
+        
+      },
+    },{id: "post-interesting-reviews-on-estimating-recent-ne",
       
         title: "Interesting reviews on estimating recent Ne",
       
