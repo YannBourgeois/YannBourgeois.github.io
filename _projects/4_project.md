@@ -38,7 +38,12 @@ Workshop #3: [Selection and association scans]({{ site.url }}/assets/html/Worksh
 
 I am also planning another set of workshops on spatial genomics. I recently started developing pipelines using [slendr](https://bodkan.net/slendr/), which is a R package interacting with tskit and SLiM, and can be very useful if your research has a spatial component and you want to test the robustness of your analyses. I will post it here once done.
 
-I am also working on developing pipelines using machine/deep learning. You can check these two resources, which aim at helping researchers build their own pipelines.
+I am also working on developing pipelines using **machine/deep learning** (see also Table 4). You can check these two resources, which aim at helping researchers build their own pipelines:
+
+[dnadna](https://mlgenetics.gitlab.io/dnadna/)
+[popgen-npe](https://popgen-npe.readthedocs.io/en/latest/)
+
+Note that the latter has been designed with the ability to produce posterior distributions and confidence intervals.
 
 ##  Table 1: Summary of methods dedicated to infer population structure.
 
