@@ -201,5 +201,13 @@ Disclaimer: I am not a specialist of these methods, although I am starting to us
   </thead>
 </table>
 
+## References
 
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% biblio_popgen %}
+
+</div>
 
