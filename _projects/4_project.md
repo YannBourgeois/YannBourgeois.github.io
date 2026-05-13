@@ -45,7 +45,7 @@ I am also working on developing pipelines using **machine/deep learning** (see a
 
 Note that the latter has been designed with the ability to produce posterior distributions and confidence intervals.
 
-##  Table 1: Summary of methods dedicated to infer population structure.
+##  Table 1: Summary of methods for population structure inference.
 
 Below you can find a table listing several methods that aim at inferring both discrete and continuous patterns in genetic data. One of the main issues that one can encounter is overinterpreting patterns of structure as reflecting isolation. Methods that incorporate the landscape (landscape genomics) may be better suited to get a sense of whether there is a barrier to gene flow or not. Some methods can also incorporate time if samples have been obtained from different generations (like tfa).
 
@@ -73,9 +73,10 @@ Below you can find a table listing several methods that aim at inferring both di
 
 
 
-## Table 2: Summary of methods dedicated to detect selection
+## Table 2: Summary of methods for genome scans of selection.
 
 Detecting candidate genes for selection can be more complex than it seems, not because the methods are difficult to implement, but because of the temptation of storytelling. I can only invite the reader to read (again) the famous article about the spandrels of San Marco. It is good practice to use simulations to get a sense of what can be detected or not (see also table 4). You can find a few basic examples of what can be done [here]({{ site.url }}/assets/html/Workshop_Day_3.html).
+You will also find in this table methods that estimate the recombination landscape, since it can be useful to quantify linked selection.
 
 <table
   data-click-to-select="true"
@@ -100,7 +101,7 @@ Detecting candidate genes for selection can be more complex than it seems, not b
 
 
 
-## Table 3: Summary of methods dedicated to reconstruct demographic history
+## Table 3: Summary of methods for demographic history reconstruction
 
 Demographic inference can be roughly divided between methods that require extensive supervision by the user (e.g. fastsimcoal2), and those that come with an already shipped model (e.g. MSMC2). The latter are useful to get a sense of what signal lies in the data, but the user should not exclusively rely on them. Methods that require the user to define a model are better from that perspective, as they force them to think of possible alternative ways of generating similar data. Again, it is a good idea to keep in mind that several demographic histories may produce very similar signatures in the genetic data. Whenever possible, for any given method, check whether simulations under the best-fitting model can recover observations for statistics that were not used for inference. For example, when using a method based on the SFS, you might want to check whether LD-based statistics are well recovered.
 
