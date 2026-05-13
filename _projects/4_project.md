@@ -470,6 +470,8 @@ Huisman, J. (2017). Pedigree reconstruction from SNP data: parentage assignment,
 
 Huson, D., & Bryant, D. (2006). Application of phylogenetic networks in evolutionary studies. Mol. Biol. Evol., 23(2), 254–267.
 
+Isildak, U., Stella, A., & Fumagalli, M. (2021). Distinguishing between recent balancing selection and incomplete sweep using deep neural networks. Mol. Ecol. Resour., 21(8), 2706–2718.
+
 Jackson, N., Morales, A., Carstens, B., & O'Meara, B. (2017). PHRAPL: phylogeographic inference using approximate likelihoods. Syst. Biol., 66, 1045–1053.
 
 Jombart, T., Devillard, S., Dufour, A.B., & Pontier, D. (2008). Revealing cryptic spatial patterns in genetic variability by a new multivariate method. Heredity, 101, 92–103.
@@ -645,6 +647,8 @@ Schrider, D., & Kern, A. (2018). Supervised machine learning for population gene
 Schubert, M., Ermini, L., Sarkissian, C., J\'onsson, H., Ginolhac, A., Schaefer, R., Martin, M., Fernández, R., Kircher, M., McCue, M., & others (2014). Characterization of ancient and modern genomes by SNP detection and phylogenomic and metagenomic analysis using PALEOMIX. Nat. Protoc., 9, 1056–1082.
 
 Sellinger, T., Awad, D., Moest, M., & Tellier, A. (2020). Inference of past demography, dormancy and self-fertilization rates from whole genome sequence data. PLoS Genet., 16(4), e1008698.
+
+Sellinger, T., Johannes, F., & Tellier, A. (2024). Improved inference of population histories by integrating genomic and epigenomic data. eLife, 12, RP89470.
 
 Setter, D., Mousset, S., Cheng, X., Nielsen, R., DeGiorgio, M., & Hermisson, J. (2020). VolcanoFinder: genomic scans for adaptive introgression. PLoS Genet., 16(6), e1008867.
 
