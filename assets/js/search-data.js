@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-job-offer",
+            },{id: "post-updates-to-methodspopgen-com",
+      
+        title: "Updates to methodspopgen.com",
+      
+      description: "A major update to the list of methods on methodspopgen.com",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/updatespopgen/";
+        
+      },
+    },{id: "post-job-offer",
       
         title: "Job offer!",
       
