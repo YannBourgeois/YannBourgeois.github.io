@@ -47,8 +47,7 @@ Note that the latter has been designed with the ability to produce posterior dis
 
 ##  Table 1: Summary of methods for population structure inference.
 
-Below you can find a table listing several methods that aim at inferring both discrete and continuous patterns in genetic data. One of the main issues that one can encounter is overinterpreting patterns of structure as reflecting isolation. Methods that incorporate the landscape (landscape genomics) may be better suited to get a sense of whether there is a barrier to gene flow or not. Some methods can also incorporate time if samples have been obtained from different generations (like tfa).
-
+Inferring population structure from genetic data can be challenging, particularly when distinguishing true barriers to gene flow from other patterns. Methods that incorporate spatial or environmental data (landscape genomics) are often better suited to identify physical barriers or continuous clines. Additionally, some approaches, such as tfa, can explicitly account for temporal structure when samples are collected across generations. Caution is advised to avoid overinterpreting patterns as evidence of isolation.
 
 <table
   data-click-to-select="true"
@@ -75,8 +74,9 @@ Below you can find a table listing several methods that aim at inferring both di
 
 ## Table 2: Summary of methods for genome scans of selection.
 
-Detecting candidate genes for selection can be more complex than it seems, not because the methods are difficult to implement, but because of the temptation of storytelling. I can only invite the reader to read (again) the famous article about the spandrels of San Marco. It is good practice to use simulations to get a sense of what can be detected or not (see also table 4). You can find a few basic examples of what can be done [here]({{ site.url }}/assets/html/Workshop_Day_3.html).
-You will also find in this table methods that estimate the recombination landscape, since it can be useful to quantify linked selection.
+Detecting selection in genomic data is not merely a technical challenge but also a conceptual one. The risk lies in overinterpreting results to fit a compelling narrative (a pitfall famously illustrated by Gould and Lewontin’s spandrels of San Marco critique). To tackle such biases, it is a good idea to use simulations to assess the power and limitations of detection methods (see also Table 4). For practical examples of genome scan workflows, refer to [this workshop material]({{ site.url }}/assets/html/Workshop_Day_3.html).
+
+This table also includes methods for estimating recombination landscapes, as recombination rates can influence the signatures of linked selection.
 
 <table
   data-click-to-select="true"
@@ -103,7 +103,9 @@ You will also find in this table methods that estimate the recombination landsca
 
 ## Table 3: Summary of methods for demographic history reconstruction
 
-Demographic inference can be roughly divided between methods that require extensive supervision by the user (e.g. fastsimcoal2), and those that come with an already shipped model (e.g. MSMC2). The latter are useful to get a sense of what signal lies in the data, but the user should not exclusively rely on them. Methods that require the user to define a model are better from that perspective, as they force them to think of possible alternative ways of generating similar data. Again, it is a good idea to keep in mind that several demographic histories may produce very similar signatures in the genetic data. Whenever possible, for any given method, check whether simulations under the best-fitting model can recover observations for statistics that were not used for inference. For example, when using a method based on the SFS, you might want to check whether LD-based statistics are well recovered.
+Demographic inference methods can be broadly categorized into two groups: those requiring user-defined models (e.g., fastsimcoal2) and those providing predefined models (e.g., MSMC2). While predefined models offer a convenient starting point for exploring signals in genetic data, they should not be relied upon exclusively. User-defined models, though more labor-intensive, encourage critical thinking about alternative demographic scenarios that could produce similar genetic patterns.
+
+It is important to recognize that different demographic histories can generate nearly identical genetic signatures. Whenever possible, validate inferred models by checking whether simulations under the best-fit parameters can reproduce independent summary statistics (e.g., if the method is based on the site frequency spectrum, verify that linkage disequilibrium patterns are also recovered).
 
 <table
   data-click-to-select="true"
@@ -130,7 +132,9 @@ Demographic inference can be roughly divided between methods that require extens
 
 ## Table 4: Summary of simulators and simulation-based methods for selection and demographic inference.
 
-The field is now moving towards a better integration of demography and selection, although this remains computationnally challenging. The complex interaction between selection and demography shapes patterns of genomic diversity, and it is not necessarily clear to what extent these parameters are identifiable. Below are some methods that provide ways to simulate datasets, train algorithms, and obtain a fuller picture of possible ways a gene or a genome evolves.
+The field is increasingly moving toward integrated models of demography and selection, though this remains computationally demanding. The interplay between these evolutionary forces shapes genomic diversity in complex ways, often making parameters difficult to disentangle. The methods listed below provide tools for simulating datasets, training algorithms, and exploring the range of possible evolutionary trajectories for genes or genomes under combined demographic and selective pressures.
+
+Note however that more recent does not necessarily mean "better". For example, ABC is a bit less of a black box than more recent machine/deep learning algorithms, and may be a valuable complement to understand the link between a summary statistic and the evolutionary processes that may impact it. I would not recommend using these advanced techniques in isolation. Start with descriptive statistics, and take the time to cross-validate the outputs of the more sophisticated algorithms to identify possible issues. See also Table 5 below.
 
 <table
   data-click-to-select="true"
@@ -156,7 +160,7 @@ The field is now moving towards a better integration of demography and selection
 
 ## Table 5: A possible list of methods to begin with
 
-There are a lot of methods, each of them built with a particular need in mind. For most analyses however, there are a few unavoidable pieces of software that can be used. You will find an attempt at listing them below. 
+The landscape of population genetic methods is vast, with each tool designed for specific applications. However, a few core methods are widely applicable and serve as a foundation for most analyses. Below is a curated list of these essential tools to help you begin your workflow.
 
 <table
   data-click-to-select="true"
@@ -182,7 +186,7 @@ There are a lot of methods, each of them built with a particular need in mind. F
 
 ## Table 6: A primer to museomics/ancient DNA
 
-Disclaimer: I am not a specialist of these methods, although I am starting to use them in my own research. However, museum and herbarium samples have proven invaluable to reconstruct the past history of species, and are sometimes extremely abundant. However, they may require using dedicated pipeline that handle the uncertainty due to low depth and post-mortem damage. The table below may help users who want to know a bit more about the requirements of such analyses.
+Disclaimer: While I am not a specialist in these methods, I have begun incorporating them into my research. Museum and herbarium samples offer invaluable resources for reconstructing the past history of species and are often available in large quantities. However, analyzing such data requires dedicated pipelines to address challenges like low sequencing depth and post-mortem damage. The table below provides an overview of the key considerations and tools for working with these data types.
 
 
 <table
